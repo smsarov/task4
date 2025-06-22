@@ -32,3 +32,17 @@
   - Все основные компоненты лежат в `src/components` и разбиты по папкам по функционалу (FileLoader, History, StatsObserver и др.).
   - Страницы (`src/pages`) .
   - Общий Layout и Header с навигацией.
+
+Использованы библиотеки `Zustand` и `react-router-dom`
+
+## Запуск
+
+```bash
+git clone https://github.com/smsarov/task4.git
+cd task4
+npm install
+npm run dev
+```
+
+Помимо этого, нужен рабочий бэкенд на localhost:3000
+
