@@ -1,0 +1,61 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 32px;
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(120%, -120%);
+  z-index: 2;
+}
+
+.statsList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-top: 16px;
+}
+
+.statBlock {
+  background: #e9baff;
+  border-radius: 18px;
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.statValue {
+  font-size: 38px;
+  color: #222;
+}
+
+.statLabel {
+  font-size: 18px;
+  color: #444;
+  margin-top: 6px;
+}

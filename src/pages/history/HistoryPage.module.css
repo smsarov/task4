@@ -1,0 +1,23 @@
+.clear {
+  background: black;
+  color: white;
+}
+
+.generate_more {
+  background: #2ae881;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

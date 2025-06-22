@@ -1,0 +1,58 @@
+.uploader {
+  background: #eacdff;
+}
+
+.hovering {
+  background: #d4fae6;
+}
+
+.error {
+  border: 1px solid #ff5f00;
+}
+
+.ready {
+  border: 1px solid #201b10;
+}
+
+.control_button {
+  padding: 15px 27px;
+  border-radius: 10px;
+  line-height: 110%;
+  height: 70px;
+}
+
+.upload_button {
+  background: white;
+  cursor: pointer;
+}
+
+.error_button {
+  background: #ff5f00;
+  color: white;
+}
+
+.submit_button {
+  background: #2ae881;
+}
+
+.submit_button:disabled {
+  background: #c0c0c0;
+  color: #787878;
+}
+
+.ready_button {
+  background: #cb81ff;
+}
+
+.spinner_button {
+  background: #cb81ff;
+  width: 330px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.done_button {
+  background: #d4fae6;
+}
